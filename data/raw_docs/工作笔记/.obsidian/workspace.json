@@ -1,0 +1,228 @@
+{
+  "main": {
+    "id": "19bcd1a8ff630719",
+    "type": "split",
+    "children": [
+      {
+        "id": "70c8aac49f36022c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7468ce9ee539d216",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AS/建模与逆向工程 (从无到有)/02_建模/01_建模框架.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "01_建模框架"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b03d6156acdc5b0a",
+    "type": "split",
+    "children": [
+      {
+        "id": "bf28624fa306c26e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9ec4a09335d72470",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "4a99ced21ffc60ac",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "bf7e28fb993f212c",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "64c4bf9d23857bcc",
+    "type": "split",
+    "children": [
+      {
+        "id": "0b46766781ed8782",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "aa17d1ce8e3fde44",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "AS/建模与逆向工程 (从无到有)/02_建模/01_建模框架.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "01_建模框架 的反向链接列表"
+            }
+          },
+          {
+            "id": "887690f04a02f4b0",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "模具三大特性/局部智能回弹补偿.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "局部智能回弹补偿 的出链列表"
+            }
+          },
+          {
+            "id": "9eda8993c315168b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "62e97799e0445510",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "d75eb9b96978c451",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "模具三大特性/局部智能回弹补偿.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "局部智能回弹补偿 的大纲"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false
+    }
+  },
+  "active": "7468ce9ee539d216",
+  "lastOpenFiles": [
+    "AS/核心业务能力 (特征、检查与修改)/01_特征识别/01_CAD 特征识别框架.md",
+    "AS/建模与逆向工程 (从无到有)/02_建模/01_建模框架.md",
+    "AS/基础概念.md",
+    "AS/建模与逆向工程 (从无到有)/02_建模/02_曲面建模",
+    "AS/建模与逆向工程 (从无到有)/01_逆向工程/05_曲面拟合.md",
+    "AS/建模与逆向工程 (从无到有)/02_建模",
+    "AS/建模与逆向工程 (从无到有)/01_逆向工程/04_多边形轮廓重逼近与曲面光顺.md",
+    "AS/建模与逆向工程 (从无到有)/01_逆向工程/03_网格重新拓扑化.md",
+    "AS/建模与逆向工程 (从无到有)/01_逆向工程/02_把面片变成面.md",
+    "AS/建模与逆向工程 (从无到有)/01_逆向工程/01_逆向工程概述.md",
+    "AS/网站文档/开源模块分析.md",
+    "AS/建模与逆向工程 (从无到有)/01_逆向工程",
+    "AS/网站文档/架构图分析.md",
+    "AS/核心业务能力 (特征、检查与修改)/04_直接编辑与去特征/04_重构边.md",
+    "AS/核心业务能力 (特征、检查与修改)/04_直接编辑与去特征/03_欧拉算子.md",
+    "AS/核心业务能力 (特征、检查与修改)/04_直接编辑与去特征/02_棱柱填充与拓扑杀手.md",
+    "AS/核心业务能力 (特征、检查与修改)/04_直接编辑与去特征/01_特征消除与面重构.md",
+    "AS/核心业务能力 (特征、检查与修改)/04_直接编辑与去特征",
+    "AS/核心业务能力 (特征、检查与修改)/03_模型修复/06_缝合Sew与面最大化.md",
+    "AS/学习任务.md",
+    "AS/建模与逆向工程 (从无到有)",
+    "AS/核心业务能力 (特征、检查与修改)",
+    "AS/核心业务能力 (特征、检查与修改)/03_模型修复/05_正则化逆向转换.md",
+    "AS/核心业务能力 (特征、检查与修改)/03_模型修复/04_底层拓扑邻接关系的校验与重建.md",
+    "AS/核心业务能力 (特征、检查与修改)/03_模型修复/01_CAD 模型有效性.md",
+    "AS/核心业务能力 (特征、检查与修改)/03_模型修复/03_轮廓闭合性与微小边修复.md",
+    "AS/核心业务能力 (特征、检查与修改)/03_模型修复/02_局部容差和网格离散面.md",
+    "AS/核心业务能力 (特征、检查与修改)/03_模型修复",
+    "工作日志/汽车造型3D编辑/001-四月24.md",
+    "PCB/Gerber解析需求说明文档.md",
+    "工作日志/汽车造型3D编辑",
+    "工作日志",
+    "PCB/PCB制板的基本工艺流程.md",
+    "PCB/最小间距.md",
+    "OCCT/PyOcc与OCCT/01_解析报告.md",
+    "实习学习内容/AlphaShape算法/清华大学实验报告.pdf",
+    "图片/OCCT架构图.png",
+    "图片/AS架构图.png",
+    "图片/Pasted image 20260319091559.png"
+  ]
+}

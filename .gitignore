@@ -1,0 +1,24 @@
+# 环境与密钥
+.env
+
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 本地数据与模型缓存（体积大，不入库）
+chroma_db/
+bm25_cache.pkl
+data/raw_docs/
+
+# 评估产物（可按需提交）
+eval_dataset.json
+
+# IDE
+.idea/
+.vscode/
+
+# 系统文件
+.DS_Store
+Thumbs.db
