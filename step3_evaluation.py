@@ -123,10 +123,15 @@ def init_resources():
 def generate_question_with_retry(llm, chunk_text: str) -> str | None:
     """调用 LLM 为给定 chunk 生成一个英文技术问题，失败时自动重试。"""
     prompt = (
-        "You are a technical question generator for a CAD/geometry kernel knowledge base.\n"
-        "Based ONLY on the following document excerpt, generate exactly ONE specific technical "
-        "question in English that can be answered using this excerpt.\n"
-        "Output only the question itself, no explanation, no numbering.\n\n"
+        "You are simulating a developer who needs help with CAD/geometry kernel programming.\n"
+        "Read the following document excerpt, understand what problem or concept it addresses, "
+        "then write ONE question in English that a real developer would type into a search engine "
+        "or ask a colleague — using their own words, NOT copying phrases from the excerpt.\n\n"
+        "Requirements:\n"
+        "- Phrase it as a practical 'how to' or 'what is' developer question\n"
+        "- Do NOT quote or paraphrase sentences directly from the excerpt\n"
+        "- Do NOT mention 'the document' or 'the excerpt' in your question\n"
+        "- Output only the question, no explanation\n\n"
         f"Document excerpt:\n{chunk_text[:600]}"
     )
     for attempt in range(1, MAX_RETRIES + 1):

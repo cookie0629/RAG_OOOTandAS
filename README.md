@@ -84,15 +84,16 @@ python step3_evaluation.py
 
 ## 评估结果
 
-测试集：20 条自动生成的 (Query, Ground Truth) 对，指标为 Hit Rate @ 5。
+测试集：从 ChromaDB 随机抽取 20 个 chunk，由 LLM 以开发者真实提问风格反向生成对应问题，构成 20 条 (Query, Ground Truth) 对。指标为 Hit Rate @ 5。
 
 | 检索方式 | 命中数 | Hit Rate @ 5 |
 |----------|--------|--------------|
-| 纯向量检索 (Dense-only) | 19/20 | 95.0% |
-| 纯 BM25 检索 (Sparse-only) | 11/20 | 55.0% |
-| 混合检索 + Cross-Encoder 重排 | 19/20 | **95.0%** |
+| 纯向量检索 (Dense-only) | 14/20 | 70.0% |
+| 纯 BM25 检索 (Sparse-only) | 10/20 | 50.0% |
+| 混合检索 + Cross-Encoder 重排 | 17/20 | **85.0%** |
 
-混合检索相比纯 BM25 提升 **+40%**，验证了双路召回架构的有效性。
+混合检索相比纯向量提升 **+15%**，相比纯 BM25 提升 **+35%**。
+
 
 ## 技术栈
 
